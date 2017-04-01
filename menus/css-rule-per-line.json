@@ -1,0 +1,27 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle css-rule-per-line",
+        "command": "css-rule-per-line:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "CSS One Rule Per Line",
+          "submenu": [
+            {
+              "label": "Minify",
+              "command": "css-rule-per-line:toggle",
+              "shortcut": "ctrl+alt+c"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
